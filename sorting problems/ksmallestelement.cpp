@@ -32,3 +32,10 @@ int main()
     cin>>k;
     cout<<"the "<<k<<" smallest element is "<<small(b,n,k);
 }
+
+// output
+
+    // enter the array size : 5
+    // enter the elements : 10 4 5 6 18
+    // enter the k value : 3
+    // the 3 smallest element is : 6

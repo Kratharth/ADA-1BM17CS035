@@ -32,3 +32,13 @@ int main()
     cin>>k;
     klarge(b,n,k);
 }
+
+//output
+
+    // enter the array size : 5
+    // enter the elements : 10 5 78 17 14
+    // enter the elements to be displayed (k value): 3
+    // 78
+    // 17
+    // 14
+
