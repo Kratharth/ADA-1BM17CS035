@@ -57,12 +57,13 @@ def merge(arr):
 arr = []
 arr1 = []
 arr2 = []
-n = 100
+n = 10
 for i in range(n):
 	arr.append(random.randint(0,100))
 arr1 = arr
 arr2 = arr
 merge(arr2)
+print("the number of elements taken randomly are : " + str(n))
 print("the total number of comparisons in bubble sort is : " + str(bubble_sort(arr)))
 print("the total number of comparisons in selection sort is : " + str(selection_sort(arr1)))
 print("the total number of comparisons in merge sort is : " + str(merge_count))
