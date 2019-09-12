@@ -60,7 +60,8 @@ print(graph)
 for i in range(rows):
 	for j in range(cols):
 		if marked[i][j] == 0:
-			if graph[i][j] == 1 and i != j:
+			if graph[i][j] == 1:
+				print("entering" + str(i) + " " + str(j))
 				count = count + 1
 			des(i,j)
 print(count) 		
